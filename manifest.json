@@ -1,0 +1,16 @@
+{
+    "name": "force-enable PiP",
+    "description": "remove `disablepictureinpicture` attribute on all <video />",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.disneyplus.com/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ]
+}
