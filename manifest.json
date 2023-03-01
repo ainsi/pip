@@ -1,6 +1,6 @@
 {
     "name": "force-enable PiP",
-    "description": "remove `disablepictureinpicture` attribute on all <video />",
+    "description": "remove `disablepictureinpicture` attribute on all <video /> on disney+",
     "version": "1.0",
     "manifest_version": 3,
     "content_scripts": [
